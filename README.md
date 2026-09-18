@@ -16,9 +16,7 @@ For more information, please visit [https://cp.unione.io/en/support](https://cp.
 
 #### npm
 
-To publish the library as a [npm](https://www.npmjs.com/), please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.com/getting-started/publishing-npm-packages).
-
-Then install it via:
+Install it via:
 
 ```shell
 npm install @unione-repo/javascript-sdk --save
