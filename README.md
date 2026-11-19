@@ -1,4 +1,8 @@
 # @unione-repo/javascript-sdk
+> [!WARNING]
+> **Deprecated.** This SDK is no longer maintained. Use [unione-node-sdk](https://github.com/unione-repo/unione-node-sdk) instead.
+>
+> Migration: replace `@unione-repo/javascript-sdk` with `unione` (`npm uninstall @unione-repo/javascript-sdk && npm install unione`). The client covers the same Web API methods; see the new README for usage.
 
 UniOne - JavaScript client for @unione-repo/javascript-sdk
 All UniOne API methods require HTTPS connection. UniOne accepts HTTP POST requests in JSON format up to 10 megabytes long and returns HTTP response also in JSON. API endpoint (or base URL) depends on which datacenter the user is registered at.<br>The preferred way is to use https://api.unione.io/en/transactional/api/v1 endpoint, but also you can use https://eu1.unione.io/en/transactional/api/v1 or https://us1.unione.io/en/transactional/api/v1 directly, depending on the host your account was registered at.
